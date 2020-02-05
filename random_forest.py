@@ -1,7 +1,7 @@
 """
-@Title: Random Forest: Classification & Regression
-@author: Rodrigo Rangel
-@description: * This script focuses on Random Forest for the following:
+Title: Random Forest: Classification & Regression
+Author: Rodrigo Rangel
+Description: * This script focuses on Random Forest for the following:
                   - Classification	
                   - Regression
 			  
