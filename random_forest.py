@@ -2,24 +2,23 @@
 @Title: Random Forest: Classification & Regression
 @author: Rodrigo Rangel
 @description: * This script focuses on Random Forest for the following:
-				  - Classification	
-				  - Regression
+                  - Classification	
+                  - Regression
 			  
-			  * Random Forest is a method that uses a large number of decision trees (in parallel), 
-			    where the output of each tree is ensembled to make a prediction
-			  * Each tree is built from a sample of data (Bootstrap Sampling: Sampling with replacement)
-			  * Each tree uses a top-down method with recursive (binary) splitting
-			  * Each classification tree is split on highest Gini Index or Information Gain (Entropy)
-			  * Random Forest minimizes the impurities at each set 
+              * Random Forest is a method that uses a large number of decision trees (in parallel), 
+               where the output of each tree is ensembled to make a prediction
+              * Each tree is built from a sample of data (Bootstrap Sampling: Sampling with replacement)
+              * Each tree uses a top-down method with recursive (binary) splitting
+              * Each classification tree is split on highest Gini Index or Information Gain (Entropy)
+              * Random Forest minimizes the impurities at each set 
 			  
-			  * Tune:
-				- Number trees
-				- Tree depth
-				- Number features per sample
-				- Size of parent/leaf nodes
-			  * Reduces variance (overfitting) for unstable classifiers (ensemble)
-			  * Random Forest's main goal is to reduce the disorder/impurity or uncertainty at each split
-			  
+              * Tune:
+                  - Number trees
+                  - Tree depth
+                  - Number features per sample
+                  - Size of parent/leaf nodes
+              * Reduces variance (overfitting) for unstable classifiers (ensemble)
+              * Random Forest's main goal is to reduce the disorder/impurity or uncertainty at each split		  
 """
 
 #-----------------------------------------------------------------------------#
@@ -90,3 +89,4 @@ rf = RandomForestRegressor(n_estimators=100
 						, oob_score=False
 						, n_jobs=None
 						, random_state=None)
+
