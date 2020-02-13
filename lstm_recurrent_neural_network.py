@@ -4,16 +4,17 @@ Author: Rodrigo Rangel
 Description: Recurrent Neural Networks (RNNs) differ slightly from traditional
              networks. Below we will cover the functionality of RNNs and differences
              
-			 * The output for the current state will be an input for the next
+             * The output for the current state will be an input for the next
                state
              * At each element in the sequence, the learners consider not only the
                current input, but also the previous elements ('remember' functionality)
+	         - Hence LSTM (Long Short Term Memory)
              * Learns long-term dependencies in a sequence, for example:
                  a. Next Word Predictions
                  b. Sentiment Classification
              * Designed to work with sequential data such as:
-			     a. Text
-				 b. Timeseries
+                 a. Text
+                 b. Timeseries
              
              In this examples, we will use imdb dataset to train an LSTM in order to make 
              sentiment predictions on reviews and make predictions on a live review
